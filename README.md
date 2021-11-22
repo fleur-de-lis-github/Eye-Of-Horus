@@ -5,23 +5,34 @@ Satellite imagery is important for many applications including disaster response
 manual identification of objects and facilities in the imagery. Because the geographic expanses to be covered are great and the analysts available to conduct the searches are few, automation is required. Yet traditional object detection and classification algorithms are too inaccurate and unreliable to solve the problem. 
 
 ## Our Approach
-
-Scene understanding and analysis has gained significant importance and widely used in computer vision and robotics field. Classification of complex scenes in a real-time environment is a difficult task to solve. Convolution Neural Networks (CNNs) is a widely used deep learning technique for the image classification. But the training of CNNs is not an easy task since it requires large scale datasets for training. Also, the construction of CNN architecture from scratch is a complex work. The best solution for this problem is employing transfer learning which gives the desired result with small scale datasets. A novel approach of IncpetionV3 and VGG16  based transfer learning method for classifying images into their classes has been proposed in this project.
-
+```diff
+Scene understanding and analysis has gained significant importance and widely used in computer vision and robotics field. 
+@@ Classification of complex scenes in a real-time environment is a difficult task to solve. Convolution Neural Networks (CNNs) @@
+@@ is a widely used deep learning technique for the image classification. But the training of CNNs is not an easy task since it requires @@
+@@ large scale datasets for training. Also, the construction of CNN architecture from scratch is a complex work. The best solution for this @@
+@@ problem is employing transfer learning which gives the desired result with small scale datasets. A novel approach of IncpetionV3 and VGG16 @@
+@@ based transfer learning method for classifying images into their classes has been proposed in this project. @@
+```
 
 ## Business Client
 ![image](https://user-images.githubusercontent.com/73738414/142716167-9d3bd41c-2770-44e1-937e-279f30c83724.png)
-In “Geospatial Imagery Analytics Market — Global Forecast to 2021” by Markets and Markets, the total imagery market is estimated to be $2,639 million in 2016 which is expected to rise to $9,696 million by 2021. Out of this, defense and government take up the lion’s share of the global geospatial imagery analytics market. In fact, the share is shown to increase by 2021 at a CAGR of 24.9% and 30.3% respectively.
+
+```diff
++ In “Geospatial Imagery Analytics Market — Global Forecast to 2021” by Markets and Markets, the total imagery market is estimated 
++ to be $2,639 million in 2016 which is expected to rise to $9,696 million by 2021. Out of this, defense and government take up the
++ lion’s share of the global geospatial imagery analytics market. In fact, the share is shown to increase by 2021 at a CAGR of 24.9%
++ and 30.3% respectively.
+```
 
 ## Project Workflow
-:pushpin:- Data Preprocessing
-:pushpin:- Data Visualization
-:pushpin:- Data Augmentation
-:pushpin:- Simple CNN Model (sCNN)
-:pushpin:- Transfer learning
-:pushpin:- InceptionV3 
-:pushpin:- Complex CNN Model based on Pre-trained VGG16 Model
-:pushpin:- Conclusion and Next Steps
+:pushpin: Data Preprocessing <br>
+:pushpin: Data Visualization <br>
+:pushpin: Data Augmentation <br>
+:pushpin: Simple CNN Model (sCNN) <br>
+:pushpin: Transfer learning <br>
+:pushpin: InceptionV3 <br>
+:pushpin: Complex CNN Model based on Pre-trained VGG16 Model <br>
+:pushpin: Conclusion and Next Steps 
 
 ## Data Summary  
 
@@ -32,7 +43,7 @@ are classified into 6 categories:
 - glacier = 2
 - mountains = 3
 - sea = 4
-- street = 5
+- street = 5 <br>
 :blue_book: The data consists of 3 separated datasets:
 - Train with 14034 images
 - Test with 3000 images
